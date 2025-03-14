@@ -18,6 +18,6 @@ VISUALS/Reports stated under number 2.
 ## 8. The Slicers should make your Dashboard interactive
 
 ## Here's the screenshot of my DASHBOARD
-![Final output of my DASHBOARD](
+![Final output of my DASHBOARD](images/D-Map.png)
 ## Here's the screenshot of my DASHBOARD-MAP
 ![Final output of my DASHBOARD-MAP]
