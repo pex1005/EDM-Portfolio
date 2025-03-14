@@ -4,11 +4,12 @@ There are a lot of columns available but focus only on generating insights that 
 1. Which Job Roles pay the highest and least
 2. What size companies pay the best
 3. Where Job Roles or Job Titles pay the best and least in a specific state
+
 ## Data Cleaning Process
-* Salary Estimate Column – Remove all the characters after the (open parentheses)
-* Created 2 New Columns (From the Salary Estimate) Min Sal and Max Sal
+* Salary Estimate Column then Remove all the characters after the (open parentheses)
+* Created 2 New Columns for Min Sal and Max Sal
 * Add Column for Role Type
-* Split Location column (Location & State Abbreviation)
+* Split Location column (Location 1 & Location 2/State Abbreviation)
 * Filter Location Correction 2 to check outliers (Anne Rundell)
 * Replace Values: Find Anne Rundell and replace with “NA”
 * Created 2 New Columns (from the site): MinCompanySize and MaxCompanySize
@@ -48,7 +49,7 @@ There are a lot of columns available but focus only on generating insights that 
 2. Select State Full Name, Min Sal and Max Sal
 3. Change Data Type of min and max sal to currency then multiply by 1000
 4. Then Group the rows by State FullName and get the min sal and max sal average
-5. Select the size column → click Group By under Transform Menu
+5. Select the size column > click Group By under Transform Menu
 
 ## D: Mapping Other Files and include in the current queries
 1. Click Unclean DS Jobs
