@@ -69,7 +69,7 @@ There are a lot of columns available but focus only on generating insights that 
 ![After Data cleaning Output](Image/After%20Data%20Cleaning.jpg)
 
 ## Dependencies and References of the QUERIES
-![Dependencies and References of the QUERIES Output](image/Dependencies.JPG)
+![Dependencies and References of the QUERIES Output]()
 
 ## Final Queries
 ![Final Queries Output](image/Uncleaned_Job.png) 
