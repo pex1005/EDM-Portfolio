@@ -63,9 +63,9 @@ There are a lot of columns available but focus only on generating insights that 
 9. Rename Columns as State Full Name
 10. Filter state Abbreviations and remove nulls and blanks
 
-## Here's the screenshot of my output before I started data cleaning (See screenshot)
+## Here's the screenshot of my output before I started data cleaning
 ![Before Data cleaning Output](Image/Before%20Data%20Cleaning.jpg)
-## Here's the screenshot of my output after I started data cleaning (See screenshot)
+## Here's the screenshot of my output after I started data cleaning
 ![After Data cleaning Output](Image/After%20Data%20Cleaning.jpg)
 
 ## Dependencies and References of the QUERIES
