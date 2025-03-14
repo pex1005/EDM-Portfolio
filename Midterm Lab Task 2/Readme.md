@@ -72,5 +72,5 @@ There are a lot of columns available but focus only on generating insights that 
 ![Dependencies and References of the QUERIES Output](Image/Query%20Dependencies.jpg)
 
 ## Final Queries
-![Final Queries Output](Image/Sal%20By%20Role%20Type%20dup.jpg) ![Final Queries Output](Image/Sal%20By%20Role%20Size%20ref.jpg) ![Final Queries Output](Image/Sal%20By%20State%20ref.jpg) ![Final Queries Output](Image/Uncleaned_DS_jobs.jpg)
+![Final Queries Output](Image/Sal%20By%20Role%20Type%20dup.jpg) ![Final Queries Output]() ![Final Queries Output](Image/Sal%20By%20State%20ref.jpg) ![Final Queries Output](Image/Uncleaned_DS_jobs.jpg)
 
