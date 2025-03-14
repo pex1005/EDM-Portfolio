@@ -2,3 +2,4 @@ title: Pat :3
 # logo : 
 show_downloads: true
 theme: jekyll-theme-slate
+remote_theme: pages-themes/modernist@v0.2.0
