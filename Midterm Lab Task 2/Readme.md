@@ -29,39 +29,39 @@ There are a lot of columns available but focus only on generating insights that 
 * Mapping Other Files and include in the current queries
 
 ## A: Uncleaned_DS_jobs duplicate
-1. Click Choose Columns
-2. Select Role Type, Min Sal and Max Sal
-3. Change Data Type of min and max sal to currency
-4. Then multiply Min and Max Sal columns by 1000 (by going to Numbers Column – Click Standard → Multiply – Type 1000)
-5. Then Group the rows by role type and get the min sal and max sal average
-6. Select the role type column > click Group By under Transform Menu
-7. Then Group the rows by role type and get the average
+* Click Choose Columns
+* Select Role Type, Min Sal and Max Sal
+* Change Data Type of min and max sal to currency
+* Then multiply Min and Max Sal columns by 1000 (by going to Numbers Column – Click Standard → Multiply – Type 1000)
+* Then Group the rows by role type and get the min sal and max sal average
+* Select the role type column > click Group By under Transform Menu
+* Then Group the rows by role type and get the average
 
 ## B: Uncleaned_DS_jobs reference
-1. Click Choose Columns
-2. Select Size: Min Sal and Max Sal
-3. Change Data Type of min and max sal to currency, then multiply by 1000
-4. Then Group the rows by size and get the min sal and max sal average
-5. Select the size column > click Group By under Transform Menu
+* Click Choose Columns
+* Select Size: Min Sal and Max Sal
+* Change Data Type of min and max sal to currency, then multiply by 1000
+* Then Group the rows by size and get the min sal and max sal average
+* Select the size column > click Group By under Transform Menu
 
 ## C: Uncleaned_DS_jobs reference
-1. Click Choose Columns
-2. Select State Full Name, Min Sal and Max Sal
-3. Change Data Type of min and max sal to currency then multiply by 1000
-4. Then Group the rows by State FullName and get the min sal and max sal average
-5. Select the size column > click Group By under Transform Menu
+* Click Choose Columns
+* Select State Full Name, Min Sal and Max Sal
+* Change Data Type of min and max sal to currency then multiply by 1000
+* Then Group the rows by State FullName and get the min sal and max sal average
+* Select the size column > click Group By under Transform Menu
 
 ## D: Mapping Other Files and include in the current queries
-1. Click Unclean DS Jobs
-2. Click on any white space in the Queries pane → Right Click → New Query → Open the Workbook State Mapping → Select the columns → Click OK
-3. It should be now included in the queries
-4. Select Uncleaned DS Jobs from the queries
-5. Select state abbreviation (on both queries)
-6. Select Merge (as shown)
-7. Tap OK
-8. It should now match the State Abbreviation with the merged state
-9. Rename Columns as State Full Name
-10. Filter state Abbreviations and remove nulls and blanks
+* Click Unclean DS Jobs
+* Click on any white space in the Queries pane → Right Click → New Query → Open the Workbook State Mapping → Select the columns → Click OK
+* It should be now included in the queries
+* Select Uncleaned DS Jobs from the queries
+* Select state abbreviation (on both queries)
+* Select Merge (as shown)
+* Tap OK
+* It should now match the State Abbreviation with the merged state
+* Rename Columns as State Full Name
+* Filter state Abbreviations and remove nulls and blanks
 
 ## Here's the screenshot of my output before I started data cleaning
 ![Before Data cleaning Output](image/Uncleaned_DS_Job.png)
