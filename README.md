@@ -17,3 +17,4 @@ I stay focused on my goals to build technical skills, gain experience, and stay 
 ## My Projects
 * Midterm Lab Task 1: [Data Cleaning and Preparation using EXCEL](Midterm%20Lab%20Task%201)
 * Midterm Lab Task 2: [Data Cleaning and Preparation using POWER QUERY](Midterm%20Lab%20Task%202)
+* Misterm Lab Task 3: [Creating Pivot Tables and Charts]()
