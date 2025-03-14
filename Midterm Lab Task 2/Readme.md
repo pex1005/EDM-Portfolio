@@ -64,9 +64,9 @@ There are a lot of columns available but focus only on generating insights that 
 10. Filter state Abbreviations and remove nulls and blanks
 
 ## Here's the screenshot of my output before I started data cleaning
-![Before Data cleaning Output](Image/Before%20Data%20Cleaning.jpg)
+![Before Data cleaning Output](image/Uncleaned_DS_Job.png)
 ## Here's the screenshot of my output after I started data cleaning
-![After Data cleaning Output](Image/After%20Data%20Cleaning.jpg)
+![After Data cleaning Output](image/Cleaned%20Data.png)
 
 ## Dependencies and References of the QUERIES
 ![Dependencies and References of the QUERIES Output]()
