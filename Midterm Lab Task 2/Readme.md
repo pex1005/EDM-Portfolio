@@ -34,7 +34,7 @@ There are a lot of columns available but focus only on generating insights that 
 3. Change Data Type of min and max sal to currency
 4. Then multiply Min and Max Sal columns by 1000 (by going to Numbers Column – Click Standard → Multiply – Type 1000)
 5. Then Group the rows by role type and get the min sal and max sal average
-6. Select the role type column → click Group By under Transform Menu
+6. Select the role type column > click Group By under Transform Menu
 7. Then Group the rows by role type and get the average
 
 ## B: Uncleaned_DS_jobs reference
@@ -42,7 +42,7 @@ There are a lot of columns available but focus only on generating insights that 
 2. Select Size: Min Sal and Max Sal
 3. Change Data Type of min and max sal to currency, then multiply by 1000
 4. Then Group the rows by size and get the min sal and max sal average
-5. Select the size column → click Group By under Transform Menu
+5. Select the size column > click Group By under Transform Menu
 
 ## C: Uncleaned_DS_jobs reference
 1. Click Choose Columns
@@ -57,8 +57,8 @@ There are a lot of columns available but focus only on generating insights that 
 3. It should be now included in the queries
 4. Select Uncleaned DS Jobs from the queries
 5. Select state abbreviation (on both queries)
-6. Select Merge – as shown
-7. Click OK
+6. Select Merge (as shown)
+7. Tap OK
 8. It should now match the State Abbreviation with the merged state
 9. Rename Columns as State Full Name
 10. Filter state Abbreviations and remove nulls and blanks
