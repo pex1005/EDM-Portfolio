@@ -33,4 +33,4 @@ DESCRIBES submission;
 ## Table in student
 ## Table in assignment
 ## Table in submission
-## Er Diagram Relationship
+## Entity Diagram Relationship
