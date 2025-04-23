@@ -17,7 +17,7 @@ representation of any dependent or weak entities.
 > shortname: String (VARCHAR), up to 50 characters.\
 due_date: Date, cannot be null.\
 url: String (VARCHAR), up to 255 characters, can be null.
-> ![Sample Output](imagee/code2.1.png)
+> ![Sample Output](imagee/ass.png)
  ![Sample Output](imagee/table2.1.png)
 > 
 * **submission table and code:**
