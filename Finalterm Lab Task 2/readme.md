@@ -1,34 +1,43 @@
-DROP DATABASE task2;
-CREATE DATABASE task2;
-USE task2;
-SHOW DATABASES;
+## Final Term Lab Task 1- Multi Level Company Database
+* The following are the tasks that need to be implemented using MySQL statements. Make sure to
+complete them in the order specified
 
-CREATE TABLE student (
-    username VARCHAR(50) PRIMARY KEY
-);
+# Task 1
+* <ins>Create a table named employees with the following fields:
+> <sup> employee_id: Unique integer, auto-increment, primary key.\
+employee_name: String (VARCHAR) with up to 255 characters, not null.\
+manager_id: Integer, foreign key referencing employee_id in the same table (employees).
 
-DESCRIBE student;
+![Sample Output]()
 
-CREATE TABLE assignment (
-    shortname VARCHAR(50) PRIMARY KEY,
-    due_date DATE NOT NULL,
-    url VARCHAR(255)
-);
+# Task 2
+* <ins>Create a table named departments with the following fields:
+> <sup> department_id: Unique integer, auto-increment, primary key.\
+department_name: String (VARCHAR) with up to 255 characters, not null.
 
-DESCRIBE assignment;
+![Sample Output]()
 
-CREATE TABLE submission (
-    username VARCHAR(50),
-    shortname VARCHAR(50),
-    version INT,
-    submit_date DATE NOT NULL,
-    data TEXT,
-    PRIMARY KEY (username, shortname, version),
-    FOREIGN KEY (username) REFERENCES student(username) ON DELETE CASCADE,
-    FOREIGN KEY (shortname) REFERENCES assignment(shortname) ON DELETE CASCADE
-);
+# Task 3
+* <ins>Create a table named employee_departments with the following fields:
+> <sup> employee_id: Integer, foreign key referencing employee_id in employees.\
+department_id: Integer, foreign key referencing department_id in departments.
+Composite primary key (employee_id, department_id).
 
-DESCRIBES submission;
+![Sample Output]()
+
+# Task 4
+* <ins>Create a table named employee_projects with the following fields:
+> <sup> employee_id: Integer, foreign key referencing employee_id in employees.\
+project_name: String (VARCHAR) with up to 255 characters, not null.
+
+![Sample Output]()
+
+# Task 5
+* <ins>Create a table named managers with the following fields:
+> <sup> manager_id: Unique integer, auto-increment, primary key.\
+employee_id: Integer, foreign key referencing employee_id in employees.
+
+![Sample Output]()
 
 ## Table in student
 ## Table in assignment
