@@ -1,45 +1,34 @@
-## Final Term Lab Task 1- Multi Level Company Database
-* The following are the tasks that need to be implemented using MySQL statements. Make sure to
-complete them in the order specified
+## Final Lab Task 2 - Transform ER into Relational tables
+Given the ER diagram representing student assignment submissions, convert it into MySQL
+tables. Capture all entities and their attributes, and define the relationships between students,
+submissions, and assignments. Identify the primary and foreign keys and ensure proper
+representation of any dependent or weak entities.
 
-# Task 1
-* <ins>Create a table named employees with the following fields:
-> <sup> employee_id: Unique integer, auto-increment, primary key.\
-employee_name: String (VARCHAR) with up to 255 characters, not null.\
-manager_id: Integer, foreign key referencing employee_id in the same table (employees).
+# In converting the ER diagram,
+ _The following are the data types of the attributes:_
 
-![Sample Output]()
+ 
+* **student table and code:**
+> username: String (VARCHAR), up to 50 characters.
+> ![Sample Output](imagee/code2.png)
+> ![Sample Output](imagee/table2.png)
 
-# Task 2
-* <ins>Create a table named departments with the following fields:
-> <sup> department_id: Unique integer, auto-increment, primary key.\
-department_name: String (VARCHAR) with up to 255 characters, not null.
+* **assignment table and code:**
+> shortname: String (VARCHAR), up to 50 characters.\
+due_date: Date, cannot be null.\
+url: String (VARCHAR), up to 255 characters, can be null.
+> ![Sample Output](imagee/code2.1.png)
+ ![Sample Output](imagee/table2.1.png)
+> 
+* **submission table and code:**
+> username: String (VARCHAR), up to 50 characters.\
+shortname: String (VARCHAR), up to 50 characters.\
+version: Integer, represents the version of the submission.\
+submit_date: Date, cannot be null.\
+data: Text.
 
-![Sample Output]()
+![Sample Output](imagee/code%202.2.png)
+![Sample Output](imagee/table2.2.png)
 
-# Task 3
-* <ins>Create a table named employee_departments with the following fields:
-> <sup> employee_id: Integer, foreign key referencing employee_id in employees.\
-department_id: Integer, foreign key referencing department_id in departments.
-Composite primary key (employee_id, department_id).
-
-![Sample Output]()
-
-# Task 4
-* <ins>Create a table named employee_projects with the following fields:
-> <sup> employee_id: Integer, foreign key referencing employee_id in employees.\
-project_name: String (VARCHAR) with up to 255 characters, not null.
-
-![Sample Output]()
-
-# Task 5
-* <ins>Create a table named managers with the following fields:
-> <sup> manager_id: Unique integer, auto-increment, primary key.\
-employee_id: Integer, foreign key referencing employee_id in employees.
-
-![Sample Output]()
-
-## Table in student
-## Table in assignment
-## Table in submission
-## Entity Diagram Relationship
+# *EER*
+![Sample Output](imagee/er2.png)
