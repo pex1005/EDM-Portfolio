@@ -38,3 +38,17 @@ project_name: String (VARCHAR) with up to 255 characters, not null.
 employee_id: Integer, foreign key referencing employee_id in employees.
 
 ![Sample Output](image/task5.png)
+
+## Task 1 Table
+![Sample Output](image/employeetbl.png)
+## Task 2 Table
+![Sample Output](image/mantbl.png)
+## Task 3 Table
+![Sample Output](image/deptbl.png)
+## Task 4 Table
+![Sample Output](image/empproj.png)
+## Task 5 Table
+![Sample Output](image/emploproj.png)
+
+## ER Diagram
+![Sample Output](image/er1.png)
