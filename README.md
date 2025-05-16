@@ -22,3 +22,5 @@ I stay focused on my goals to build technical skills, gain experience, and stay 
 * Finalterm Lab Task 1: [Multi Level Company Database](Finalterm%20Lab%20Task%201)
 * Finalterm Lab Task 2: [Transform ER into Relational tables](Finalterm%20Lab%20Task%202)
 * Finalterm Lab Task 3: [Table Manipulation](Finalterm%20Lab%20Task%203)
+* Finalterm Lab Task 3-1:[ Using SELECT CLAUSE](Finalterm%20Lab%20Task%203.1)
+* Finalterm Lab Task 5:
