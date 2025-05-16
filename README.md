@@ -15,10 +15,12 @@ I stay focused on my goals to build technical skills, gain experience, and stay 
 
 * College: City College of Angeles
 ## My Projects
+## Mid-Terms
 * Midterm Lab Task 1: [Data Cleaning and Preparation using EXCEL](Midterm%20Lab%20Task%201)
 * Midterm Lab Task 2: [Data Cleaning and Preparation using POWER QUERY](Midterm%20Lab%20Task%202)
 * Midterm Lab Task 3: [Creating Pivot Tables and Charts](Midterm%20Lab%20Task%203)
 
+## Final-Term
 * Finalterm Lab Task 1: [Multi Level Company Database](Finalterm%20Lab%20Task%201)
 * Finalterm Lab Task 2: [Transform ER into Relational tables](Finalterm%20Lab%20Task%202)
 * Finalterm Lab Task 3: [Table Manipulation](Finalterm%20Lab%20Task%203)
