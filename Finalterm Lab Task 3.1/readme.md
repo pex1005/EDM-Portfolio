@@ -10,6 +10,6 @@ enrollment_limit: Integer, not null.
 students_enrolled: Integer, not null. 
 
 > ![Sample Output](image/1.png)
-> [Sample Output](image/courses%20-%20Copy.png)
+> [!Sample Output](image/courses%20-%20Copy.png)
 
 
