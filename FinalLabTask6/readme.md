@@ -205,6 +205,7 @@ post : [post_obj_id]
 ![Sample](image/q6%2C7.png)
 
 <ins> 8. find all comments belonging to the post "Reports a bug in your code"
+
 ![Sample](image/q8.png)
 
 
