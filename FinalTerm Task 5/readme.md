@@ -5,15 +5,13 @@
 4. Open the democodes.sql, and you may try executing all the examples using the hrd.sql file
 
 5. AFTER the practice codes…. Perform the required SQL statements of the ff: use inventory.sql for this. 
-> [FianlLabTask5]()
+> [FianlLabTask5](inventoiry.sql)
 
 6. Print screen the appropriate sql and output per item
 
 * 1 <ins>CREATE A VIEW that will display the vendors_code, vendors name, product description p_indate, of all products with p_indate from 2002 onwards
-> ![Sample Output]()
-
 * 2 <ins>CREATE a VIEW that will display all products whose price range is between 100-150
-> ![Sample Output]()
+> ![Sample Output](createviewproducts.png)
 
 * 3 <ins>Create a VIEW that will COMPUTE for the (TOTAL_PRICE) of ALL PRODUCTS by getting the (P_ONHAND x P_PRICE) Sold by vendors with the following v_code (21344, 23119 and 24288) 
 >![Sample Output]()
