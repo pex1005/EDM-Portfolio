@@ -172,46 +172,40 @@ post : [post_obj_id]
 
 > db.users.find().pretty()
 
-![Sample](IMAGE/ftQ6.1.JPG)
-
 <ins> 2. find all posts
 
 > db.posts.find().pretty()
 
-![Sample](IMAGE/ftQ6.2.JPG)
+![Sample](image/q1%2C2.png)
 
 <ins> 3. find all posts that was authored by "GoodGuyGreg"
 
 > db.posts.find({username:"GoodGuyGreg"})
 
-![Sample](IMAGE/ftQ6.3.JPG)
-
 <ins> 4. find all posts that was authored by "ScumbagSteve"
 
 > db.posts.find({username:"ScumbagSteve"})
 
-![Sample](IMAGE/ftQ6.4.JPG)
+![Sample](image/q3%2C4.png)
 
 <ins> 5. find all comments
 
 > db.comments.find().pretty()
 
-![Sample](IMAGE/ftQ6.5.JPG)
+![Sample](image/q5.png)
 
 <ins> 6. find all comments that was authored by "GoodGuyGreg"
 
 > db.comments.find({username:"GoodGuyGreg"})
 
-![Sample](IMAGE/ftQ6.6.JPG)
-
 <ins> 7. find all comments that was authored by "ScumbagSteve"
 
 > db.comments.find({username:"ScumbagSteve"})
 
-![Sample](IMAGE/ftQ6.7.JPG)
+![Sample](image/q6%2C7.png)
 
 <ins> 8. find all comments belonging to the post "Reports a bug in your code"
-![Sample](IMAGE/ftQ6.8.JPG)
+![Sample](image/q8.png)
 
 
 Post your answers in your GitHub portfolio ff: the format below: i.e
