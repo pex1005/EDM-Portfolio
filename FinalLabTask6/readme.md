@@ -104,46 +104,34 @@ full_name :
 <ins> username : GoodGuyGreg
 title : Passes out at party
 body : Wakes up early and cleans house
- db.posts.insert({username:"GoodGuyGreg", title:"Passes out at Party", body:"Raises your credit score"})
-
-![Sample](IMAGE/ftaskIN6.1.JPG)
+> db.posts.insert({username:"GoodGuyGreg", title:"Passes out at Party", body:"Raises your credit score"})
 
 <ins> username : GoodGuyGreg
 title : Steals your identity
 body : Raises your credit score
-> db.posts.insert({ username:"GoodGuyGreg", title:"Steals your identity", body:"Raises your credit score"})
-
-![Sample](IMAGE/ftaskIN6.2.JPG)
-
+> db.posts.insert({ username:"GoodGuyGreg", title:"Steals your identity", body:"Raises your credit score"})> 
 
 <ins> username : GoodGuyGreg
 title : Reports a bug in your code
 body : Sends you a Pull Request
 > db.posts.insert({username:"GoodGuyGreg", title:"Reports a bug in your code", body:"Sends you a pull request"})
 
-![Sample](IMAGE/ftaskIN6.3.JPG)
-
-
 <ins> username : ScumbagSteve
 title : Borrows something
 body : Sells it
 > db.posts.insert({ username:"ScumbagSteve", title:"Borrows something", body:"Sells it"})
-
-![Sample](IMAGE/ftaskIN6.4.JPG)
 
 <ins> username : ScumbagSteve
 title : Borrows everything
 body : The end
 > db.posts.insert({ username:"ScumbagSteve", title:"Borrows everything", body:"The end"})
 
-![Sample](IMAGE/ftaskIN6.5.JPG)
-
 <ins> username : ScumbagSteve
 title : Forks your repo on github
 body : Sets to private
 > db.posts.insert({username:"ScumbagSteve", title:"Forks your repo on github", body:"Sets to private"})
 
-![Sample](IMAGE/ftaskIN6.6.JPG)
+![Sample](image/p1%2C2%2C3%2C4%2C5%2C6.png)
 
 ### Insert the following documents into a `comments` collection
 
