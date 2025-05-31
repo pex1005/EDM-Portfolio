@@ -61,23 +61,23 @@ db.movies.find({$or:[{year:{$gt:"2010"}},{year: {$lt:"2000"}}]})
 
 ## Text Search
 
-<ins> 1. find all movies that have a synopsis that contains the word "Bilbo"
-> db.movies.find({synopsis:{$regex:"Bilbo"}})
-<ins> 2. find all movies that have a synopsis that contains the word "Gandalf"
+1. find all movies that have a synopsis that contains the word "Bilbo"
+> db.movies.find({synopsis:{$regex:"Bilbo"}})/
+2. find all movies that have a synopsis that contains the word "Gandalf"
 > db.movies.find({synopsis:{$regex:"Gandalf"}})
-<ins> 3. find all movies that have a synopsis that contains the word "Bilbo" and not the word "Gandalf"
+3. find all movies that have a synopsis that contains the word "Bilbo" and not the word "Gandalf"
 > db.movies.find({$and:[{synopsis:{$regex:"Bilbo"}}, {synopsis:{$not:/Gandalf/}}]})
-<ins> 4. find all movies that have a synopsis that contains the word "dwarves" or "hobbit"
+4. find all movies that have a synopsis that contains the word "dwarves" or "hobbit"
 > db.movies.find({$or:[{synopsis:{$regex:"dwarves"}}, {synopsis:{$regex:"hobbit"}}]})
-<ins> 5. find all movies that have a synopsis that contains the word "gold" and "dragon"
+5. find all movies that have a synopsis that contains the word "gold" and "dragon"
 > db.movies.find({$and:[{synopsis:{$regex:"gold"}}, {synopsis:{$regex:"dragon"}}]})
 
 ## Delete Documents
 
 <ins> 1. delete the movie "Pee Wee Herman's Big Adventure"
-> db.movies.remove({_id:ObjectId("5c9f992ae5c2dfe9b3729c00")})
+> db.movies.remove({_id:ObjectId("683b0939163d716b3ca12dfd")})
 <ins> 2. delete the movie "Avatar"
-> db.movies.remove({_id:ObjectId("5c9f9936e5c2dfe9b3729c01")})
+> db.movies.remove({_id:ObjectId("683b0939163d716b3ca12dfe")})
 ![Sample](image/d1'd2.png)
 
 ## Relationships
@@ -89,7 +89,7 @@ first_name : "Good Guy"
 last_name : "Greg"
 > db.users.insert({_id:1,username:"GoodGuyGreg", first_name:"Good Guy", last_name:"Greg"})
 
-![Sample](IMAGE/ftaskR6.1.JPG)
+![Sample](image/u1.png)
 
 <ins> username : ScumbagSteve
 full_name :
@@ -97,7 +97,7 @@ full_name :
   last : "Steve"
 > db.users.insert({_id:2, username:"ScumbagSteve", fullname:{first: "Scumbag", last:"Steve"}})
 
-![Sample](IMAGE/ftaskR6.2.JPG)
+![Sample](image/u2.png)
 
 ### Insert the following documents into a `posts` collection
 
