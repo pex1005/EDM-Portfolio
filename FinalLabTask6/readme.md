@@ -63,46 +63,22 @@ db.movies.find({$or:[{year:{$gt:"2010"}},{year: {$lt:"2000"}}]})
 
 <ins> 1. find all movies that have a synopsis that contains the word "Bilbo"
 > db.movies.find({synopsis:{$regex:"Bilbo"}})
-
-![Sample](IMAGE/ftaskT.1.JPG)
-
 <ins> 2. find all movies that have a synopsis that contains the word "Gandalf"
 > db.movies.find({synopsis:{$regex:"Gandalf"}})
-
-![Sample](IMAGE/ftaskT6.2.JPG)
-
 <ins> 3. find all movies that have a synopsis that contains the word "Bilbo" and not the word "Gandalf"
 > db.movies.find({$and:[{synopsis:{$regex:"Bilbo"}}, {synopsis:{$not:/Gandalf/}}]})
-
-![Sample](IMAGE/ftaskT6.3.JPG)
-
 <ins> 4. find all movies that have a synopsis that contains the word "dwarves" or "hobbit"
 > db.movies.find({$or:[{synopsis:{$regex:"dwarves"}}, {synopsis:{$regex:"hobbit"}}]})
-
-![Sample](IMAGE/ftaskT6.4.JPG)
-
 <ins> 5. find all movies that have a synopsis that contains the word "gold" and "dragon"
 > db.movies.find({$and:[{synopsis:{$regex:"gold"}}, {synopsis:{$regex:"dragon"}}]})
-
-![Sample](IMAGE/ftaskT6.5.JPG)
 
 ## Delete Documents
 
 <ins> 1. delete the movie "Pee Wee Herman's Big Adventure"
 > db.movies.remove({_id:ObjectId("5c9f992ae5c2dfe9b3729c00")})
-
-![Sample](IMAGE/ftaskD6.1.JPG)
-
 <ins> 2. delete the movie "Avatar"
 > db.movies.remove({_id:ObjectId("5c9f9936e5c2dfe9b3729c01")})
-
-
-![Sample](IMAGE/ftaskD6.2.JPG)
-
-
-
-
-
+![Sample](image/d1'd2.png)
 
 ## Relationships
 
