@@ -138,59 +138,33 @@ body : Sets to private
 <ins> username : GoodGuyGreg
 comment : Hope you got a good deal!
 post : [post_obj_id]
-
 > where [post_obj_id] is the ObjectId of the `posts` document: "Borrows something"
-
 > db.comments.insert({ username:"GoodGuyGreg", comment:"Hope you got a good deal!", post:ObjectId("5ca0b7e96435f98b5901f463")})
-
-![Sample](IMAGE/ftINC6.1.JPG)
 
 <ins> username : GoodGuyGreg
 comment : What's mine is yours!
 post : [post_obj_id]
-
 > where [post_obj_id] is the ObjectId of the `posts` document: "Borrows everything"
-
 > db.comments.insert({username:"GoodGuyGreg", comment:"What's mine is yours!", post:ObjectId("5ca0b9706435f98b5901f46a")})
-
-![Sample](IMAGE/ftINC6.2.JPG)
 
 <ins> username : GoodGuyGreg
 comment : Don't violate the licensing agreement!
 post : [post_obj_id]
-
 > where [post_obj_id] is the ObjectId of the `posts` document: "Forks your repo on github
-
 > db.comments.insert({username:"GoodGuyGreg", comment:"Don't violate the licensing agreement!", post:ObjectId("5ca0b8766435f98b5901f467")})
-
-![Sample](IMAGE/ftINC6.3.JPG)
-
 
 <ins> username : ScumbagSteve
 comment : It still isn't clean
 post : [post_obj_id]
-
 > where [post_obj_id] is the ObjectId of the `posts` document: "Passes out at party"
-
 > db.comments.insert({username:"ScumbagSteve", comment:"It still isn't clean", post:ObjectId("5ca0b8546435f98b5901f466")})
-
-![Sample](IMAGE/ftINC6.4.JPG)
 
 <ins> username : ScumbagSteve
 comment : Denied your PR cause I found a hack
 post : [post_obj_id]
-
-> where [post_obj_id] is the ObjectId of the `posts` document: "Reports a bug in your code"
-
+> where [post_obj_id] is the ObjectId of the `posts` document: "Reports a bug in your code
 > db.comments.insert({username:"ScumbagSteve", comment:"Denied your PR cause I found a hack", post:ObjectId("5ca0b9256435f98b5901f469")})
-
-![Sample](IMAGE/ftINC6.5.JPG)
-
-
-
-
-
-
+![Sample](image/c6.png)
 
 ## Querying related collections
 
